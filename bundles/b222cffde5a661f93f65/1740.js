@@ -1,0 +1,10 @@
+(self["webpackChunkelement_web"] = self["webpackChunkelement_web"] || []).push([[1740],{
+
+/***/ "./src/effects/ICanvasEffect.ts"
+() {
+
+
+
+/***/ }
+
+}]);

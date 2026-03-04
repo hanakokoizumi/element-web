@@ -1,15 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
         <title>Jitsi Widget</title>
-    <link rel="preload" href="/fonts/Inter/Inter-BoldItalic.57f0f97.woff2"><link rel="preload" href="/fonts/Inter/Inter-Bold.7824a90.woff2"><link rel="preload" href="/fonts/Inter/Inter-SemiBoldItalic.17942dd.woff2"><link rel="preload" href="/fonts/Inter/Inter-SemiBold.d5a91eb.woff2"><link rel="preload" href="/fonts/Inter/Inter-MediumItalic.2bbf830.woff2"><link rel="preload" href="/fonts/Inter/Inter-Medium.6be58ea.woff2"><link rel="preload" href="/fonts/Inter/Inter-Italic.faebbae.woff2"><link rel="preload" href="/fonts/Inter/Inter-Regular.bed7225.woff2"><link href="bundles/04d29c8405184d736b29/jitsi.css" rel="stylesheet"></head>
+    <script defer src="bundles/b222cffde5a661f93f65/jitsi.js"></script><link href="bundles/b222cffde5a661f93f65/jitsi.css" rel="stylesheet"></head>
     <body>
         <div id="jitsiContainer"><!-- the js will put the conference here --></div>
         <div id="joinButtonContainer">
             <div class="joinConferenceFloating">
                 <div class="joinConferencePrompt">
-                    <span class="icon"><!-- managed by CSS --></span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M6 4h10a2 2 0 0 1 2 2v4.286l3.35-2.871a1 1 0 0 1 1.65.76v7.65a1 1 0 0 1-1.65.76L18 13.715V18a2 2 0 0 1-2 2H6a4 4 0 0 1-4-4V8a4 4 0 0 1 4-4"/></svg>
                     <!-- TODO: i18n -->
                     <h2>Jitsi Video Conference</h2>
                     <div id="widgetActionContainer">
@@ -20,5 +20,5 @@
         </div>
         <!-- This script is not webpacked, and the script is downloaded at build time -->
         <script src="./jitsi_external_api.min.js"></script>
-    <script src="bundles/04d29c8405184d736b29/jitsi.js"></script></body>
+    </body>
 </html>
